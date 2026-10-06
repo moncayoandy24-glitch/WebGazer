@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prueba de WebGazer.js</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Prueba de seguimiento ocular</h1>
+
+    <p>
+        Permite el acceso a la cámara y mira los diferentes objetivos.
+    </p>
+
+    <div class="objetivos">
+
+        <div class="objetivo rojo">
+            MIRA AQUÍ
+        </div>
+
+        <div class="objetivo azul">
+            MIRA AQUÍ
+        </div>
+
+        <div class="objetivo verde">
+            MIRA AQUÍ
+        </div>
+
+    </div>
+
+    <div id="coordenadas">
+        X: -- | Y: --
+    </div>
+
+    <!-- WebGazer -->
+    <script src="/dist/webgazer.js"></script>
+
+    <!-- Código de nuestra aplicación -->
+    <script src="script.js"></script>
+
+</body>
+</html>
